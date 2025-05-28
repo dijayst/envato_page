@@ -23,7 +23,7 @@ const Navbar = () => {
         <li><Link href="#" className="hover:text-[#871f26]">Explore Foods</Link></li>
         <li><Link href="#" className="hover:text-[#871f26]">Reviews</Link></li>
         <li><Link href="#" className="hover:text-[#871f26]">FAQ</Link></li>
-        <li><Link href="#" className="bg-[#a7282f] text-white font-semibold px-4 py-2 rounded"> 1800 789 123</Link></li>
+        <li><Link href="#" className="bg-[#a7282f] text-white font-semibold px-6 py-3 "> 1800 789 123</Link></li>
       </ul>
 
       
