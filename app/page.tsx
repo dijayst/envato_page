@@ -1,5 +1,6 @@
 import Image from "next/image";
 import chai from '../public/chai.jpg'
+import avocado from '../public/avocado.png'
 import Link from "next/link";
 
 
@@ -42,12 +43,16 @@ export default function Home() {
       </div>
     </section>
 
-    <section>
-      <div className="flex">
+    <section className=" pt-20">
+      <div className="flex gap-5 max-w-6xl  w-full mx-auto  " >
 
-<Image src={chai} alt="chia" className="bg-cover w-full "/>
+<Image src={avocado} alt="chia"  className="bg-cover w-[62%] rounded-xl  object-cover object-top"/>
 <div>
-  
+  <p>We pride ourselves on making real food from the best ingredients.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
+ <button  className="p-7 bg-[#a82d49] text-white  md:p-2 opacity-40 transition-all delay-75 ease-in-out hover:opacity-90 focus:outline-none"
+         ><Link href="#">Learn More  </Link></button>
+         
 </div>
       </div>
     </section>

@@ -8,7 +8,7 @@ import logo from '../public/logo.png'
 const Navbar = () => {
   return (
     <div className="fixed bg-white top-0 left-0 z-50 w-full">
-    <nav className="flex  justify-between  md:bg-green-700 lg:bg-white bg-blue-600  mx-auto  items-center max-w-5xl w-full">
+    <nav className="flex  justify-between  md:bg-green-700 lg:bg-white bg-blue-600  mx-auto  items-center max-w-6xl w-full">
       {/* Logo 
       
        <nav className="flex items-center justify-between px-5 mx-auto shadow-sm md:bg-green-700 lg:bg-red-600 bg-blue-600 md:w-full md:max-w-3xl lg:w-">*/}
